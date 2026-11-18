@@ -2,7 +2,8 @@
 public class Sportlane extends Voistleja {
 
     public Sportlane(String nimi, String spordiala) {
-        super(nimi, spordiala);
+        this.nimi = nimi;
+        this.spordiala = spordiala;
     }
 
 
