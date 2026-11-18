@@ -3,7 +3,8 @@ public class Tiim extends Voistleja {
     private int liikmeteArv;
 
     public Tiim(String nimi, String spordiala, int liikmeteArv) {
-        super(nimi, spordiala);
+        this.nimi = nimi;
+        this.spordiala = spordiala;
         this.liikmeteArv = liikmeteArv;
     }
 
